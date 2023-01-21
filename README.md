@@ -29,7 +29,7 @@ The AI DOC MAGIC creates a add on that allows you to create a simple way to use 
 - Add your OPENAI API KEY
 <img width="486" alt="Screenshot 2023-01-21 at 12 16 46" src="https://user-images.githubusercontent.com/84702635/213862476-6125e610-f0e8-4df2-a01d-a45eab54b136.png">
 
-- Functions: Remember for every function you add, add  `.addItem("Item", "generateIten")` to the menu function. 
+- Functions: Remember for every function you add, add  `.addItem("xxxx", "generatexxx")` to the menu function. 
 
 - Prompts: Modify your prompts and function names according to what the desired completions.
 <img width="441" alt="Screenshot 2023-01-21 at 12 17 29" src="https://user-images.githubusercontent.com/84702635/213862490-d5b6b202-1970-4379-bc4f-cd8c3839a3be.png">
