@@ -2,16 +2,22 @@
 
 AI DOC MAGIC 📄 ✨ is a script for Google Docs that utilizes the OpenAI API to generate text based outputs based on user prompts and selected text within the document. The script adds a dropdown menu called "AI MAGIC" to your Google Docs interface, with various options for generating text.
 
-# Features 🤖
+# Feature Examples  🤖
 The AI DOC MAGIC creates a add on that allows you to create a simple way to use prompts and GPT3 generated written outputs in docs by creating functions with specific prompts. You can create add a function that prompts GPT3 to perform specific completions some ideas could be:
 
 - General: generates text based on a general prompt in doc.
+`var prompt = "Generate" + selectedText;`
 - Blog Ideas: generates 3 ideas for a blog post about the selected text
+`var prompt = "You are a {insert profession}. Generate 3 different blog ideas about" + selectedText;`
 - Summarize: generates a summary of the selected text
+`var prompt = "Summarize into a short paragraphy with 5 bullet points:" + selectedText;`
 - Expand: generates a 1500-word blog post about the selected text
+`var prompt = "You are a {insert profession}. Write a 1000 word blog post about" + selectedText;`
 - Alternatives: generates alternative tone phrases (Positive, Neutral, Persuasive) for the selected text
+`var prompt = "You are {insert profession}. Provide 3 alternative tones for" + selectedText + "Neutral, Simplified, Persuasive"`
 - Mission Doc: generates a mission statement for a company related to the selected text
-- Script: generates a script for a video or audio production related to the selected text.
+`"You are {insert profession}. Provide 3 alternative tones for" + selectedText + "Neutral, Simplified, Persuasive"`
+
 
 # Setup 🚧 
 - Make sure you have a Google account and are logged in.
